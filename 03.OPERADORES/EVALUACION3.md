@@ -8,10 +8,11 @@ Las siguientes simplificaciones realizalas considerando la gerarquía de los ope
 
 3.1 Ejercicio 1(2 puntos)
 
-Simplifica la expresión 5+{{(3+1)}^2}.
-5+{4^2}
-5+8
-13
+Simplifica la expresión 5+{{(3+1)}^2}.br
+
+5+{4^2}br
+5+8br
+13br
 
 3.2 Ejercicio 2 (2 puntos)
 
