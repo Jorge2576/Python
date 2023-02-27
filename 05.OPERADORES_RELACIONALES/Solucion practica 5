@@ -9,3 +9,11 @@ elif num == 0:
 else:
     print('Es negativo') 
     
+ 
+ #Programa que imprima si el número ingresado esta en el rango de 1 a 7, el número se solicita por consola.
+ 
+ num = int(input('Ingresa un numero para saber si esta en rango de 1 a 7: '))
+if num in range(1,7):
+    print('El numero esta en rango')
+else:
+    print('El numero salio de rango')
