@@ -1,0 +1,11 @@
+crear un programa que imprima si un numero es negativo o positivo, le numero debe de ser ingreado por teclado
+
+num = int(input('Ingresa un numero para saber si es positivo o negtivo: '))
+if num in range(1,1000000):
+    print('Es positivo')
+elif num == 0:
+    print('El numero es 0')
+
+else:
+    print('Es negativo') 
+    
