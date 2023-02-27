@@ -1,7 +1,7 @@
-crear un programa que imprima si un numero es negativo o positivo, le numero debe de ser ingreado por teclado
+1.- crear un programa que imprima si un numero es negativo o positivo, le numero debe de ser ingreado por teclado
 
 num = int(input('Ingresa un numero para saber si es positivo o negtivo: '))
-if num in range(1,1000000):
+if num >= 1:
     print('Es positivo')
 elif num == 0:
     print('El numero es 0')
@@ -10,10 +10,24 @@ else:
     print('Es negativo') 
     
  
- #Programa que imprima si el número ingresado esta en el rango de 1 a 7, el número se solicita por consola.
+ 2.- Programa que imprima si el número ingresado esta en el rango de 1 a 7, el número se solicita por consola.
  
  num = int(input('Ingresa un numero para saber si esta en rango de 1 a 7: '))
 if num in range(1,7):
     print('El numero esta en rango')
 else:
     print('El numero salio de rango')
+
+
+3.- Programa que solicite un monto y que solicite el interés mensual, 
+si el interés es mayor al 30% nos imprimirá que es incorrecto, 
+si es menor realizará el cálculo e imprimira el monto con su interés adicionado.
+
+
+mont = float(input('Ingrese un monto: '))
+interes = int(input('ingrese su interes mensual: '))
+if interes >= 31:
+    print('El monto es incorrecto')
+else:
+    total = (mont*interes)/12
+    print(total) 
