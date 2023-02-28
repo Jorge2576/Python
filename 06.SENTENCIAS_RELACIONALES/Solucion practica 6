@@ -1,0 +1,49 @@
+Realizar un ejemplo de menú, donde podemos escoger las distintas opciones hasta que seleccionamos la opción de “Salir”.
+
+nombre = input('Ingresa tu nombre')
+print(f'Hola {nombre} que opcion quieres poner')
+print('\n Menu de recomendaciones \n')
+print('1 - Literatura')
+print('2 - Cine')
+print('3 - Musica')
+print('4 - Videojjuegos')
+print('5 - Salir')
+
+
+
+opcion = int(input('Ingresa una opcion: '))
+while opcion == 1:
+    print('\n Lecturas recomendadas \n')
+    print('- Esperandolo a Tito y otros cuentos de futbol (Eduardo Sacheri)')
+    print('- El juego de Ender (Orson Scott Card)')
+    print('- El sueño de los Heroes (Adolfo Bloy Casares)')
+    opcion = int(input('Ingresa una opcion'))
+
+else: 
+    while opcion == 2:
+        print('\n Peliculas Recomendables \n')
+        print('- Matrix (1999')
+        print('- El último samuray (2003)')
+        print('- Cars (2006)')
+        opcion = int(input('Ingresa una opcion'))
+
+    else:
+        while opcion == 3:
+            print('\n Discos recomendados \n')
+            print('- Despedazado por mil partes (La Renga, 1996)')
+            print('- Búfalo (La Mississippi, 2008)')
+            print('- Gaia (Mago de Oz, 2003)')
+            opcion = int(input('Ingresa una opcion'))
+
+        else:
+            while opcion == 4:
+                print('\n Videojuegos clásicos recomendables\n')
+                print('Día del tentáculo (LucasArts, 1993)')
+                print('Terminal Velocity (Terminal Reality/3D Realms, 1995)')
+                print('Death Rally (Remedy/Apogee, 1996)')
+                opcion = int(input('Ingresa una opcion'))
+            
+            else:
+                while opcion == 5:
+                    print('Gracias, vuelve pronto') 
+                    break
